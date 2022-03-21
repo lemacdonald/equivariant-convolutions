@@ -6,6 +6,5 @@ This repo contains the code to replicate the experiments of our CVPR2022 paper [
  - layers.py contains the code used for the Lie group convolutional layers described in Sections 4.1 and 4.2 of the [paper](https://arxiv.org/abs/2111.08251).
  - data.py contains the code we used to create PyTorch datasets from the [homNIST](https://www.kaggle.com/datasets/lachlanemacdonald/homnist) and [affNIST](https://www.cs.toronto.edu/~tijmen/affNIST/) .mat files.
  - experiment.py is the code to train a $G$-equivariant convolutional model on (padded) MNIST, to then test on $G$NIST (where $G$ denotes either the affine or homography group).
+ - experiment_e2.py is the code we used to benchmark the E2SFCNN $E(2)$-equivariant convolutional model of [General $E(2)$-Equivariant Steerable CNNs](https://arxiv.org/abs/1911.08251) on affNIST and homNIST.
  - create_homNIST.py is the code we used to generate the homNIST test set.
-
-Please cite our paper if you use our code.
