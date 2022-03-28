@@ -15,3 +15,6 @@ To replicate our experiments using the experiment.py file:
  - From [this link](https://www.kaggle.com/datasets/lachlanemacdonald/homnist), download the homNIST.mat file.  It contains the homNIST test set.
 
 The experiment consists of training a model on (padded) MNIST, and then testing on either affNIST or homNIST.  To run the former, in experiment.py simply set group = 'affine'; for the latter set group = 'homography'.
+
+Running the experiment_e2.py file requires the e2cnn library, which can be installed using the following command:
+ pip install e2cnn
